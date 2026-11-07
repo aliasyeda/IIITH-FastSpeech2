@@ -38,6 +38,13 @@
 17. [References](#17-references)
 
 ---
+## Trained Model Checkpoints
+
+The trained English and Telugu FastSpeech 2 model checkpoints are available here:
+
+[Google Drive – Download Model Checkpoints](https://drive.google.com/drive/folders/1kAvvI4z1c_CsRc8cKz7DP6T33b1nWC9W?usp=sharing)
+
+---
 
 ## 1. Project Overview
 
