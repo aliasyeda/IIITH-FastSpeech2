@@ -1,0 +1,18 @@
+{
+  "source": "ai4bharat/Svarah",
+  "source_partition": "test",
+  "split_method": "existing project English.select; seeded shuffle",
+  "seed": 1234,
+  "speaker_ids": "Unavailable; speaker conditioning disabled",
+  "train": {
+    "utterances": 3140,
+    "hours": 5.0002
+  },
+  "validation": {
+    "utterances": 610,
+    "hours": 1.0001
+  },
+  "overlap_count": 0,
+  "train_validation_recording_ids_disjoint": true,
+  "speaker_independence_verified": false
+}

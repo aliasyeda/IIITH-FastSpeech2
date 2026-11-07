@@ -1,0 +1,23 @@
+{
+  "dataset": "ai4bharat/Svarah",
+  "checked_at": "2026-11-06T15:17:54.612506",
+  "features": [
+    "audio_filepath",
+    "duration",
+    "text",
+    "gender",
+    "age-group",
+    "primary_language",
+    "native_place_state",
+    "native_place_district",
+    "highest_qualification",
+    "job_category",
+    "occupation_domain"
+  ],
+  "available_splits": {
+    "test": {
+      "examples": 6656,
+      "bytes": 1088823937.104
+    }
+  }
+}

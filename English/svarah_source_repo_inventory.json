@@ -1,0 +1,12 @@
+[
+  {
+    "name": "README.md",
+    "type": "file",
+    "download_url": "https://raw.githubusercontent.com/AI4Bharat/Svarah/master/README.md"
+  },
+  {
+    "name": "eval_scripts",
+    "type": "dir",
+    "download_url": null
+  }
+]

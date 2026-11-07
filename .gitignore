@@ -1,0 +1,14 @@
+# Large checkpoints (host separately on Google Drive)
+*.pt
+*.pth
+
+# Python cache
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Temporary and backup files
+*.pid
+*.tmp
+*.bak
+*.before_*

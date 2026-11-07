@@ -1,0 +1,26 @@
+language: telugu
+paths:
+  work_dir: /content/drive/MyDrive/IIITH_FastSpeech2/work/telugu       # NEW output folder (existing Drive data is only read)
+  ckpt_dir: /content/drive/MyDrive/IIITH_FastSpeech2/ckpt/telugu
+  results_dir: ../Results/Telugu
+data:
+  corpus_dir: /content/drive/MyDrive/IIITH_FastSpeech2/Telugu_Alignment_Corpus
+  speaker_subdir: speaker1
+  alignment_dir: /content/drive/MyDrive/IIITH_FastSpeech2/Telugu_Alignment_Output
+  train_manifest: /content/drive/MyDrive/IIITH_FastSpeech2/Telugu_Recovered/train_manifest.csv
+  val_manifest: /content/drive/MyDrive/IIITH_FastSpeech2/Telugu_Recovered/validation_manifest.csv
+  sil_min_sec: 0.08      # silences shorter than this are absorbed by the previous grapheme
+  split_sil_sec: 0.12    # long utterances are cut at silences >= this ...
+  seg_max_sec: 15.0      # ... so that every training segment is <= 15 s
+  max_frames: 1500
+  workers: 2
+telugu:
+  dictionary: /content/drive/MyDrive/IIITH_FastSpeech2/Telugu_Alignment/Telugu_Dictionary_g2g.txt
+audio: {sr: 22050, n_fft: 1024, hop: 256, win: 1024, n_mels: 80, fmin: 0, fmax: 8000}
+model: {d: 256, enc_layers: 4, dec_layers: 4, heads: 2, ff: 1024, kernel: 9, dropout: 0.2, var_filter: 256, var_kernel: 3, n_bins: 256}
+train: {batch_frames: 14000, max_bs: 32, total_steps: 30000, warmup: 4000, lr: 0.001, grad_clip: 1.0, log_every: 100, val_every: 1000, save_every: 2000, seed: 1234, num_workers: 2}
+vocoder:   # ming024 FastSpeech2 repo HiFi-GAN (universal V1, 22.05 kHz, 80 mel) - falls back to Griffin-Lim if missing
+  hifigan_repo: /content/drive/MyDrive/IIITH_FastSpeech2/FastSpeech2_Reference
+  config: /content/drive/MyDrive/IIITH_FastSpeech2/FastSpeech2_Reference/hifigan/config.json
+  ckpt: /content/drive/MyDrive/IIITH_FastSpeech2/FastSpeech2_Reference/hifigan/generator_universal.pth.tar
+inference: {speaker: null, sentences: test_sentences.json}

@@ -1,0 +1,30 @@
+language: english
+paths:
+  work_dir: /content/drive/MyDrive/IIITH_FastSpeech2/work/english
+  ckpt_dir: /content/drive/MyDrive/IIITH_FastSpeech2/ckpt/english
+  results_dir: ../Results/English
+data:
+  manifest: /content/drive/MyDrive/IIITH_FastSpeech2/Svarah/manifest.jsonl
+  audio_root: ""
+  train_hours: 5.0
+  val_hours: 1.0
+  min_dur: 1.5
+  max_dur: 15.0
+  seed: 1234
+  sil_min_sec: 0.08
+  split_sil_sec: 0.12
+  seg_max_sec: 15.0
+  max_frames: 1500
+  workers: 2
+mfa:
+  env: /content/mfa_env
+  acoustic_model: english_us_arpa     # mfa model download acoustic english_us_arpa
+  jobs: 4
+audio: {sr: 22050, n_fft: 1024, hop: 256, win: 1024, n_mels: 80, fmin: 0, fmax: 8000}
+model: {d: 256, enc_layers: 4, dec_layers: 4, heads: 2, ff: 1024, kernel: 9, dropout: 0.2, var_filter: 256, var_kernel: 3, n_bins: 256}
+train: {batch_frames: 14000, max_bs: 32, total_steps: 30000, warmup: 4000, lr: 0.001, grad_clip: 1.0, log_every: 100, val_every: 1000, save_every: 2000, seed: 1234, num_workers: 2}
+vocoder:   # ming024 FastSpeech2 repo HiFi-GAN (universal V1, 22.05 kHz, 80 mel) - falls back to Griffin-Lim if missing
+  hifigan_repo: /content/drive/MyDrive/IIITH_FastSpeech2/FastSpeech2_Reference
+  config: /content/drive/MyDrive/IIITH_FastSpeech2/FastSpeech2_Reference/hifigan/config.json
+  ckpt: /content/drive/MyDrive/IIITH_FastSpeech2/FastSpeech2_Reference/hifigan/generator_universal.pth.tar
+inference: {speaker: null, sentences: test_sentences.json}

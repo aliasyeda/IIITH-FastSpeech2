@@ -1,0 +1,10 @@
+{
+  "source": "ai4bharat/Svarah",
+  "source_partition": "test",
+  "speaker_conditioning": "single label; source speaker IDs unavailable",
+  "recordings_saved": 4377,
+  "total_hours": 7.0,
+  "manifest": "/content/drive/MyDrive/IIITH_FastSpeech2/Svarah/manifest.jsonl",
+  "audio_directory": "/content/drive/MyDrive/IIITH_FastSpeech2/Svarah/audio",
+  "elapsed_minutes": 1.61
+}

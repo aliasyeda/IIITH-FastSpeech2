@@ -1,0 +1,14 @@
+torch>=2.0
+numpy
+scipy
+librosa>=0.10
+soundfile
+pyworld
+matplotlib
+pyyaml
+num2words
+g2p_en
+nltk
+tqdm
+reportlab
+# Montreal Forced Aligner is NOT pip-installed: separate conda env (conda install -c conda-forge montreal-forced-aligner), see README.

@@ -1,0 +1,2 @@
+train=3138 val=610 params=28.8M device=cpu
+step 100 total 13.2055 (4375s)
