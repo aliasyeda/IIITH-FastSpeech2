@@ -1,20 +1,38 @@
 <div align="center">
 
-# Bilingual FastSpeech 2 Text-to-Speech
 
-### Separate English and Telugu Acoustic Models in a Shared PyTorch Codebase
 
-*Assignment submission — Language Technologies Research Centre (LTRC), IIIT Hyderabad*
+\# Bilingual FastSpeech 2 Text-to-Speech
+
+
+
+Separate English and Telugu Acoustic Models in a Shared PyTorch Codebase
+
+
+
+Assignment submission — Language Technologies Research Centre (LTRC), IIIT Hyderabad
+
+
 
 !\[Python](https://img.shields.io/badge/Python-3.x-blue)
+
 !\[PyTorch](https://img.shields.io/badge/PyTorch-%E2%89%A52.0-ee4c2c)
+
 !\[Model](https://img.shields.io/badge/Model-FastSpeech%202-6f42c1)
+
 !\[Languages](https://img.shields.io/badge/Languages-English%20%7C%20Telugu-success)
+
 !\[Vocoder](https://img.shields.io/badge/Inference%20vocoder-Griffin--Lim-orange)
 
-**Author:** Syeda Alia Samia  |  **Submission date:** 07 November 2026
+
+
+Author: Syeda Alia Samia | Submission date: 07 November 2026
+
+
 
 </div>
+
+
 
 \---
 
@@ -28,11 +46,7 @@ The trained FastSpeech 2 model checkpoints for both English and Telugu are avail
 
 
 
-\*\*\[Download Model Checkpoints – Google Drive](https://drive.google.com/drive/folders/1kAvvI4z1c\_CsRc8cKz7DP6T33b1nWC9W?usp=sharing)\*\*
-
-
-
-The folder contains the trained model files for the bilingual TTS implementation.
+\[\*\*Download Model Checkpoints – Google Drive\*\*](https://drive.google.com/drive/folders/1kAvvI4z1c\_CsRc8cKz7DP6T33b1nWC9W?usp=sharing)
 
 
 
