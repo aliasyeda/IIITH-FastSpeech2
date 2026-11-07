@@ -58,33 +58,33 @@ The trained FastSpeech 2 model checkpoints for both English and Telugu are avail
 
 
 
-\- Project Overview
+\- \[Project Overview](#project-overview)
 
-\- Objectives and Key Contributions
+\- \[Objectives and Key Contributions](#objectives-and-key-contributions)
 
-\- FastSpeech 2 Architecture
+\- \[FastSpeech 2 Architecture](#fastspeech-2-architecture)
 
-\- Bilingual System Architecture
+\- \[Bilingual System Architecture](#bilingual-system-architecture)
 
-\- Datasets
+\- \[Datasets](#datasets)
 
-\- Preprocessing
+\- \[Preprocessing](#preprocessing)
 
-\- Model and Training Configuration
+\- \[Model and Training Configuration](#model-and-training-configuration)
 
-\- Training and Validation Results
+\- \[Training and Validation Results](#training-and-validation-results)
 
-\- Generated Speech Samples
+\- \[Generated Speech Samples](#generated-speech-samples)
 
-\- Variance-Adaptor Visualisations
+\- \[Variance-Adaptor Visualisations](#variance-adaptor-visualisations)
 
-\- Repository Structure
+\- \[Repository Structure](#repository-structure)
 
-\- Installation
+\- \[Installation](#installation)
 
-\- Preprocessing, Training and Inference
+\- \[Preprocessing, Training and Inference](#preprocessing-training-and-inference)
 
-\- Checkpoint Access
+\- \[Checkpoint Access](#checkpoint-access)
 
 
 
