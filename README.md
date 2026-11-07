@@ -54,25 +54,39 @@ The trained FastSpeech 2 model checkpoints for both English and Telugu are avail
 
 
 
-## Table of Contents
+\## Table of Contents
 
-1. [Project Overview](#1-project-overview)
-2. [Objectives and Key Contributions](#2-objectives-and-key-contributions)
-3. [FastSpeech 2 Architecture](#3-fastspeech-2-architecture)
-4. [Bilingual System Architecture](#4-bilingual-system-architecture)
-5. [Datasets](#5-datasets)
-6. [Preprocessing](#6-preprocessing)
-7. [Model and Training Configuration](#7-model-and-training-configuration)
-8. [Training and Validation Results](#8-training-and-validation-results)
-9. [Generated Speech Samples](#9-generated-speech-samples)
-10. [Variance-Adaptor Visualisations](#10-variance-adaptor-visualisations)
-11. [Repository Structure](#11-repository-structure)
-12. [Installation](#12-installation)
-13. [Preprocessing, Training and Inference](#13-preprocessing-training-and-inference)
-14. [Checkpoint Access](#14-checkpoint-access)
-15. [Limitations](#15-limitations)
-16. [Future Improvements](#16-future-improvements)
-17. [References](#17-references)
+
+
+\- Project Overview
+
+\- Objectives and Key Contributions
+
+\- FastSpeech 2 Architecture
+
+\- Bilingual System Architecture
+
+\- Datasets
+
+\- Preprocessing
+
+\- Model and Training Configuration
+
+\- Training and Validation Results
+
+\- Generated Speech Samples
+
+\- Variance-Adaptor Visualisations
+
+\- Repository Structure
+
+\- Installation
+
+\- Preprocessing, Training and Inference
+
+\- Checkpoint Access
+
+
 
 \---
 
